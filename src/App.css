@@ -1,0 +1,47 @@
+header{
+  display: flex;
+}
+
+header button{
+  font-size: 1.2rem;
+  font-weight: 600;
+  flex-grow: 1;
+  padding: 1rem;
+  
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 0;
+  border: none;
+  border-left: 1px solid rgb(173, 39, 39);
+  border-bottom: 1px solid rgb(173, 39, 39);
+  background-color: white;
+  color: rgb(173, 39, 39);
+}
+
+header button:hover{
+  border-left: 1px solid rgb(173, 39, 39);
+  border-bottom: 1px solid rgb(173, 39, 39);
+  background-color: rgb(227, 74, 74);
+  color: white;
+}
+
+li{
+  margin: 1rem 0;
+}
+
+.circle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+main{
+  overflow-x: scroll;
+}
+
+td{
+  border: 1px solid rgb(173, 39, 39);
+  text-align: center;
+  min-width: 100px;
+}
